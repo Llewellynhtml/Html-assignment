@@ -1,0 +1,102 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+
+background-color: whitesmoke;
+font-family: "Encode Sans Condensed", sans-serif;
+
+}
+
+
+
+.info {
+display: flex;
+justify-content: space-around;
+
+}
+
+
+
+
+
+
+ul {
+
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+li {
+padding: 1.5rem
+
+}
+
+.cartavatar {
+    display: flex;
+   list-style-type: none;
+   padding: 1;
+   justify-content: space-between;
+
+   
+}
+.cartimage {
+    margin: auto 0 auto 0;
+}
+.thumbnails {
+    display: flex;
+}
+
+.thumbnails img {
+    margin-right: 10px; 
+}
+
+.tekkies {
+ display: flex;
+ justify-content: space-around;
+ margin-right: 20px;
+
+}
+    
+.price-container {
+    margin-top: 20px; 
+    padding-right: 20%;
+    display: flex;
+}
+
+.price {
+    font-size: 24px; 
+}
+
+.discount {
+    font-size: 18px; 
+}
+
+.add-to-cart-btn {
+    margin-top: 20px; /* Adjust margin as needed */
+    background-color: #f8b307; /* Green */
+    border: none;
+    color: rgb(24, 23, 23);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn span {
+    margin: 0 5px; 
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+}
