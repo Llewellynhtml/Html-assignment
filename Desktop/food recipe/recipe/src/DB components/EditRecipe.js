@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom'; // useNavigate instead of useHistory
+import { useParams, useNavigate } from 'react-router-dom'; 
 import axios from 'axios';
 
 
@@ -11,7 +11,7 @@ function EditRecipe() {
     instructions: '',
     nutrition:'',
   });
-  const navigate = useNavigate(); // useNavigate instead of useHistory
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const fetchRecipe = async () => {
@@ -34,9 +34,9 @@ function EditRecipe() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Here we would normally send a PUT request to a server to update the recipe.
+    
       console.log('Recipe updated:', recipe);
-      navigate('/'); // use navigate to redirect
+      navigate('/'); 
     } catch (error) {
       console.error('Error updating recipe:', error);
     }

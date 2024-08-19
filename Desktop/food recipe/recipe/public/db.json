@@ -465,6 +465,20 @@
         "Calories with reduced sauce": "606 calories",
         "Calories with less sweet sauce": "477 calories"
       }
+    },
+    {
+      "id": "4b0d",
+      "name": "Toasted Sandwich Recipe",
+      "ingredients": "Your favourite bread Butter Shredded roasted chicken breasts (you can also add thigh meat for more flavour) Mayo Lettuce (we like Iceberg the best) Salt & pepper",
+      "instructions": "delete",
+      "image": "https://muggandbean.co.za/images/img-pages/masterbaker/chicken-mayo-header.webp"
+    },
+    {
+      "id": "ea3a",
+      "name": "Toasted Sandwich Recipe",
+      "ingredients": "Your favourite bread Butter Shredded roasted chicken breasts (you can also add thigh meat for more flavour) Mayo Lettuce (we like Iceberg the best) Salt & pepper",
+      "instructions": "update",
+      "image": "https://muggandbean.co.za/images/img-pages/masterbaker/chicken-mayo-header.webp"
     }
   ]
 }
