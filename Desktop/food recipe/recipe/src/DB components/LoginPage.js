@@ -9,7 +9,7 @@ function LoginPage({ handleLogin }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Retrieve existing users from local storage
+    
     const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
     const user = existingUsers.find(user => user.email === email && user.password === password);
 

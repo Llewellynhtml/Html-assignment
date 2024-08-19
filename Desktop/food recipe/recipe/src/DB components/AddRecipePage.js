@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 function AddRecipePage({ addRecipe }) {
   const [newRecipe, setNewRecipe] = useState({
+    id:'',
     name: '',
     ingredients: '',
     instructions: '',

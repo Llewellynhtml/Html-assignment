@@ -24,17 +24,17 @@ function RegisterPage() {
       return;
     }
 
-    // Retrieve existing users from local storage
+    
     const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
 
-    // Check if email is already registered
+    
     const emailExists = existingUsers.some(user => user.email === formData.email);
     if (emailExists) {
       alert('Email already registered!');
       return;
     }
 
-    // Store the user data in local storage
+    
     const newUser = {
       firstName: formData.firstName,
       lastName: formData.lastName,
@@ -45,7 +45,7 @@ function RegisterPage() {
 
     localStorage.setItem('users', JSON.stringify(existingUsers));
 
-    // Redirect to the login page
+  
     navigate('/login');
   };
 
