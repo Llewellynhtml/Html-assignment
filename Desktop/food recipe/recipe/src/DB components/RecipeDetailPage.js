@@ -3,34 +3,29 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 
 function RecipeDetailPage() {
-  const { id } = useParams();  
-  const [recipe, setRecipe] = useState(null);  
-  const [loading, setLoading] = useState(true);  
-  const [error, setError] = useState(null);  
+  const { id } = useParams();
+  const [recipe, setRecipe] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchRecipe = async () => {
       try {
-        const response = await axios.get('/db.json');
-        const foundRecipe = response.data.recipes.find(recipe => recipe.id === parseInt(id));
-        if (foundRecipe) {
-          setRecipe(foundRecipe); 
-        } else {
-          setError('Recipe not found'); 
-        }
+        const response = await axios.get(`http://localhost:3001/recipes/${id}`);
+        setRecipe(response.data);
       } catch (error) {
-        setError('Error fetching recipe');  
+        setError('Recipe not found');
         console.error('Error fetching recipe:', error);
       } finally {
-        setLoading(false);  
+        setLoading(false);
       }
     };
 
     fetchRecipe();
   }, [id]);
 
-  if (loading) return <div>Loading...</div>; 
-  if (error) return <div>{error}</div>;  
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>{error}</div>;
 
   return (
     <div className="recipe-detail">

@@ -2,28 +2,20 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom'; 
 import axios from 'axios';
 
-
 function EditRecipe() {
   const { id } = useParams();
-  const [recipe, setRecipe] = useState({
-    name: '',
-    ingredients: '',
-    instructions: '',
-    nutrition:'',
-  });
+  const [recipe, setRecipe] = useState(null);
   const navigate = useNavigate(); 
 
   useEffect(() => {
     const fetchRecipe = async () => {
       try {
-        const response = await axios.get('/db.json');
-        const foundRecipe = response.data.recipes.find(recipe => recipe.id === parseInt(id));
-        setRecipe(foundRecipe);
+        const response = await axios.get(`http://localhost:3001/recipes/${id}`);
+        setRecipe(response.data);
       } catch (error) {
         console.error('Error fetching recipe:', error);
       }
     };
-
     fetchRecipe();
   }, [id]);
 
@@ -34,13 +26,18 @@ function EditRecipe() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-    
-      console.log('Recipe updated:', recipe);
-      navigate('/'); 
+      console.log('Updated recipe data:', recipe);
+      await axios.put(`http://localhost:3001/recipes/${id}`, recipe);
+      console.log('Recipe updated successfully:', recipe);
+      navigate(`/recipes/${id}`);
     } catch (error) {
-      console.error('Error updating recipe:', error);
+      console.error('Error updating recipe:', error.response || error.message);
     }
   };
+
+  if (!recipe) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <div className="form-container">
@@ -75,13 +72,13 @@ function EditRecipe() {
           />
         </div>
         <div className="form-group">
-        <label>nutrition</label>
-         <textarea
-         name="nutrition"
-         value={recipe.nutrition}
-         onChange={handleChange}
-         required
-         />
+          <label>Nutrition:</label>
+          <textarea
+            name="nutrition"
+            value={recipe.nutrition}
+            onChange={handleChange}
+            required
+          />
         </div>
         <button type="submit" className="btn">Update Recipe</button>
       </form>

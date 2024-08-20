@@ -54,7 +54,7 @@ function App() {
       })
       .then(data => {
         console.log('Recipe added:', data);
-        setRecipes([...recipes, data]);  
+        setRecipes(prevRecipes => [...prevRecipes, data]);  
       })
       .catch(error => console.error('Error adding recipe:', error));
   };
@@ -79,12 +79,9 @@ function App() {
       <div className="app-container">
         <img src={kitchen} className="kitchen" alt="Kitchen Logo" />
         <Routes>
-        
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage handleLogin={handleLogin} />} />
-          
-          
-          <Route path="/" element={isLoggedIn ? <HomePage /> : <Navigate to="/login" />} />
+          <Route path="/" element={isLoggedIn ? <HomePage recipes={recipes} /> : <Navigate to="/login" />} />
           <Route path="/add" element={isLoggedIn ? <AddRecipePage addRecipe={addRecipe} /> : <Navigate to="/login" />} />
           <Route path="/edit/:id" element={isLoggedIn ? <EditRecipe /> : <Navigate to="/login" />} />
           <Route path="/recipes/:id" element={isLoggedIn ? <RecipeDetailPage /> : <Navigate to="/login" />} />

@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 
 function AddRecipePage({ addRecipe }) {
   const [newRecipe, setNewRecipe] = useState({
-    id:'',
+    id: '',
     name: '',
     ingredients: '',
     instructions: '',
-    image: '',
+    image: '', 
   });
 
   const navigate = useNavigate();
@@ -19,7 +19,8 @@ function AddRecipePage({ addRecipe }) {
 
   const handleAddRecipe = (e) => {
     e.preventDefault();
-    addRecipe(newRecipe);
+    const newRecipeWithId = { ...newRecipe, id: Date.now() }; 
+    addRecipe(newRecipeWithId); // Ensure this function updates the recipe list
     navigate('/');
   };
 

@@ -3,6 +3,7 @@
     {
       "id": "1",
       "name": "Waffles",
+      "image": "https://shorturl.at/r4Tmi",
       "ingredients": [
         "2 1/4 cup flour, plain / all purpose",
         "2 1/2 tbsp caster sugar / superfine sugar (sub granulated / ordinary sugar)",
@@ -38,11 +39,12 @@
         "vitaminA": "523IU (10%)",
         "calcium": "127mg (13%)",
         "iron": "2mg (11%)"
-      },
-      "image": "https://shorturl.at/r4Tmi"
+      }
     },
     {
       "id": "2",
+      "name": "Pancakes Fluffy, Quick, No-Fail",
+      "image": "https://shorturl.at/tM0kg",
       "ingredients": [
         "2 cups / 300g plain / all purpose flour (Note 1)",
         "4 tsp baking powder (Note 1)",
@@ -67,12 +69,12 @@
       "nutrition": {
         "Serving": "62g",
         "Calories": "108cal (5%)"
-      },
-      "image": "https://shorturl.at/tM0kg"
+      }
     },
     {
       "id": "3",
       "name": "Homemade Pork Sausage Patties",
+      "image": "https://shorturl.at/CBu29",
       "ingredients": [
         "500g/ 1 lb pork mince (ground pork) (sub chicken, turkey)",
         "1 tsp dried ground sage",
@@ -109,12 +111,12 @@
         "vitamin_c": "1mg (1%)",
         "calcium": "12mg (1%)",
         "iron": "1mg (6%)"
-      },
-      "image": "https://shorturl.at/CBu29"
+      }
     },
     {
       "id": "4",
       "name": "Cheesy Zucchini and Pasta Slice",
+      "image": "https://shorturl.at/JgXWI",
       "ingredients": [
         "1 cup dried wholemeal spiral pasta",
         "3 medium (500g) zucchini, grated",
@@ -140,12 +142,12 @@
         "carbohydrate_total": "14.1g",
         "sodium": "255mg",
         "cholesterol": "0.1g"
-      },
-      "image": "https://shorturl.at/JgXWI"
+      }
     },
     {
       "id": "5",
       "name": "Spaghetti bolognese cups",
+      "image": "https://shorturl.at/kG2Y3",
       "ingredients": [
         "150g spaghetti",
         "1 tbsp extra virgin olive oil",
@@ -166,12 +168,12 @@
         "Preheat oven to 180C/160C fan-forced. Grease 18 holes of two 12-hole (1/3-cup-capacity) muffin pans.",
         "Add mince mixture to spaghetti. Add egg, flour, and half the cheese. Mix well to combine. Stir in basil and parsley, season with salt and pepper. Divide mixture evenly among muffin pans, pressing to compact. Sprinkle each cup with remaining cheese.",
         "Bake for 20 minutes until cheese is melted and golden. Stand in pans for 5 minutes. Transfer to a wire rack to cool. Serve warm or cold, sprinkled with extra basil and parsley."
-      ],
-      "image": "https://shorturl.at/kG2Y3"
+      ]
     },
     {
       "id": "6",
       "name": "Lamb Chops with Rosemary Gravy (loin chops, forequarter, cutlets)",
+      "image": "https://shorturl.at/vDeJK",
       "ingredients": [
         "750g/ 1.5lb lamb chops (loin chops, forequarter, cutlets)",
         "1/4 cup extra virgin olive oil",
@@ -210,11 +212,12 @@
         "vitamin_c": "1mg (1%)",
         "calcium": "43mg (4%)",
         "iron": "3mg (17%)"
-      },
-      "image": " "
+      }
     },
     {
       "id": "7",
+      "name": "Asparagus and Ham Filo Pie with Salsa Verde",
+      "image": "https://shorturl.at/7ezjA",
       "ingredients": [
         "Olive oil cooking spray",
         "4 sheets filo pastry",
@@ -253,6 +256,8 @@
     },
     {
       "id": "8",
+      "name": "Brown Rice and Salmon Patties",
+      "image": "https://shorturl.at/DgFtJ",
       "ingredients": [
         "1/2 cup medium grain brown rice",
         "2 1/2 tbsp olive oil",
@@ -292,6 +297,8 @@
     },
     {
       "id": "9",
+      "name": "Best-Ever Homemade Sausage Rolls",
+      "image": "https://shorturl.at/cahdL",
       "ingredients": [
         "1 cup dried wholemeal spiral pasta",
         "3 medium (500g) zucchini, grated",
@@ -322,6 +329,8 @@
     },
     {
       "id": "10",
+      "name": "italian lamb stew",
+      "image": "https://shorturl.at/qKy07",
       "ingredients": [
         "1/4 cup (35g) plain flour",
         "1 tsp smoked paprika",
@@ -348,6 +357,8 @@
     },
     {
       "id": "11",
+      "name": "Braised Beef Short Ribs",
+      "image": "https://shorturl.at/qkKdA",
       "ingredients": [
         "750g/1.5lb lamb chops (loin chops, forequarter, cutlets)",
         "1/4 cup extra virgin olive oil",
@@ -467,18 +478,20 @@
       }
     },
     {
-      "id": "4b0d",
-      "name": "Toasted Sandwich Recipe",
-      "ingredients": "Your favourite bread Butter Shredded roasted chicken breasts (you can also add thigh meat for more flavour) Mayo Lettuce (we like Iceberg the best) Salt & pepper",
-      "instructions": "delete",
-      "image": "https://muggandbean.co.za/images/img-pages/masterbaker/chicken-mayo-header.webp"
+      "id": "",
+      "name": "Chicken Cacciatore (Italian chicken stew)",
+      "ingredients": "4 bone in chicken thighs large (1 kg / 2 lb) ▢4 chicken drumsticks ▢1/2 tsp cooking salt / kosher salt ▢1/4 tsp black pepper ▢1 tbsp olive oil Cacciatore: ▢1 onion , halved, finely sliced ▢2 rosemary sprigs (about 15 cm/6″ long), or 1 tsp dried rosemary ▢2 bay leaves , preferably fresh else dried ▢3 garlic cloves , finely minced ▢3 anchovy fillets (or 1 tsp anchovy paste), optional (Note 2) ▢250g / 8 oz mushrooms , sliced ▢2 red capsicum , sliced 8 mm thick (medium, not giant) ▢1/3 cup tomato paste ▢3/4 cup pinot noir or other dry red wine (Note 3) ▢2 cups chicken stock/broth , low sodium ▢400g/14 oz canned crushed tomato ▢16 whole kalamata olives , pitted, drained ▢1/4 tsp cooking/kosher salt ▢1/4 tsp black pepper ▢1 tsp dried oregano",
+      "instructions": "Season – Spread the chicken out on a tray. Sprinkle both sides with the salt and pepper.\nBrown skin – Heat the oil over high heat in a large, deep, heavy based pan, preferably one with a lid (Note 4). Place the chicken thighs in the pan, skin side down, and cook until the skin is golden brown, around 6 minutes. Turn and cook the flesh side for just 1 minute, then remove the chicken onto the same tray. Then add the drumsticks and brown each side as best you can, about 1 1/2 minutes on each side (the shape makes it awkward). Remove onto the tray.",
+      "image": "https://www.recipetineats.com/tachyon/2024/06/Chicken-Cacciatore-50813.jpg?resize=1200%2C1500&zoom=1"
     },
+ 
+
     {
-      "id": "ea3a",
-      "name": "Toasted Sandwich Recipe",
-      "ingredients": "Your favourite bread Butter Shredded roasted chicken breasts (you can also add thigh meat for more flavour) Mayo Lettuce (we like Iceberg the best) Salt & pepper",
-      "instructions": "update",
-      "image": "https://muggandbean.co.za/images/img-pages/masterbaker/chicken-mayo-header.webp"
+      "id": 1724161036464,
+      "name": "How to Make Madombi (Dumplings)",
+      "ingredients": "3 cups (425 grams) all-purpose flour, plus more for kneading 2 tablespoons baking powder 1 1/2 teaspoons salt 2 teaspoons instant dry yeast 2 teaspoons sugar 300 milliliters (10 ounces) warm water",
+      "instructions": "Lightly flour your worktop in order to prevent the dough from sticking to it. Remove the dough from the bowl and place onto the floured surface. Begin to knead the dough, stretching it as well in the process. Knead dough for a minimum of 10 minutes until smooth and elastic.",
+      "image": "https://www.thespruceeats.com/thmb/V1-lA9Vc1b7jo8zSQtdD0sCoumI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/madombi-dumplings-recipe-5071291-hero-01-f1c69d246588483cbee4d9e0ef38d8f5.jpg"
     }
   ]
 }

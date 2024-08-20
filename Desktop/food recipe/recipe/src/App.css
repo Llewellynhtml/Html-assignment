@@ -409,12 +409,22 @@ margin-left: 7px;
   color: #333;
 }
 
+
 .recipe-image {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  height: 220px; 
+  border-radius: 20px;
+  object-fit: cover; 
 }
+
+
+.image-class {
+  width: 100%;
+  height: 220px; 
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
 
 h3 {
   font-size: 1.75rem;
