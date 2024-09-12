@@ -1,0 +1,107 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .homepage {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  
+  
+  .nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    color: #141313;
+  }
+  
+  .nav-icon {
+    font-size: 40px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .newsletter-btn {
+    cursor: pointer;
+    font-size: 14px;
+    color: antiquewhite;
+  }
+  
+  .nav-icon:hover, .newsletter-btn:hover {
+    color: #313030;
+  }
+  
+  
+  .nav-center .logo {
+    height: 120px;
+  }
+  
+  
+  .book-now {
+    background-color: #0a0a0a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-now:hover {
+    background-color: #d6fe0a;
+  }
+  
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 30px;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+  }
+  
+  
+  .divider {
+    margin-top: 150px;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  
+  .secondary-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  
+  }
+  
+  .secondary-link {
+    color: #000;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 14px;
+  }
+  
+  .secondary-link:hover {
+    color: #007bff;
+  }
+  
