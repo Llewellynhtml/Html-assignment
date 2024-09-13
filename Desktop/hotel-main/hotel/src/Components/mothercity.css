@@ -1,3 +1,16 @@
+@keyframes moveImage {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+.mothercity-image.move {
+  animation: moveImage 0.5s ease forwards;
+}
+
 .mothercity {
   padding: 30px;
   background-color: #FFFFFF(0, 100%, 99%);

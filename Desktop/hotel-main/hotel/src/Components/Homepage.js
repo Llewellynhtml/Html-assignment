@@ -5,7 +5,12 @@ import logo from "../One&Only 1.png";
 import { FaPhone, FaEnvelope, FaLanguage } from "react-icons/fa";
 import "./nav.css";
 import BookingSection from "./BookingSection";
+import Bridge from "./bridge";
 import Mothercity from "./mothercity";
+import ImageSlider from "./ImageSlider";
+import Suite from "./suite";
+import Spa from "./spa";
+import Nobu from "./Nobu";
 
 
 
@@ -60,7 +65,12 @@ function HomePage() {
         </div>
       </div>
       <BookingSection/>
+      <Bridge/>
       <Mothercity/>
+      <ImageSlider/>
+      <Suite/>
+      <Spa/>
+      <Nobu/>
       
     </div>
   );
