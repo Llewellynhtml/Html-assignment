@@ -4,6 +4,7 @@ import Chef from "./data/white cheff.jpg";
 
 function Nobu() {
   return (
+    <div className="Nobu">
     <div className="Parent-Gold">
       <div>
         <img src={Chef} alt="cheff" />
@@ -14,15 +15,16 @@ function Nobu() {
         <hr/>
       </div>
       <div>
-        <p>
+        <p className="Delight-text">  
           Delight in Japanese-Peruvian flavours in <br></br>the city’s most famous
           restaurant, only here <br></br>at One&Only Cape Town.
         </p>
       </div>
       <div>
-        <button>EXPLORE</button>
+        <button className="Delight-btn">EXPLORE</button>
       </div>
       </div>
+    </div>
     </div>
   );
 }

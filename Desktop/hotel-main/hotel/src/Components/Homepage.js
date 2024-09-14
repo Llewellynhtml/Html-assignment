@@ -11,6 +11,10 @@ import ImageSlider from "./ImageSlider";
 import Suite from "./suite";
 import Spa from "./spa";
 import Nobu from "./Nobu";
+import Adventure from "./adventure";
+import Landscape from "./Landscape";
+import palm from './data/palms.png';
+import Footer from "./footer";
 
 
 
@@ -71,7 +75,12 @@ function HomePage() {
       <Suite/>
       <Spa/>
       <Nobu/>
-      
+      <Adventure/>
+      <Landscape/>
+      <div className="palm-tree">
+        <img src={palm} alt="palm tree"></img>
+      </div>
+      <Footer/>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import CurrencyInput from "react-currency-input-field";
 import "./booking.css";
 
+
 function BookingSection() {
   const [adults, setAdults] = useState(1);
   const [children, setChildren] = useState(0);
