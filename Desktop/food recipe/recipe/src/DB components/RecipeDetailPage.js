@@ -11,7 +11,7 @@ function RecipeDetailPage() {
   useEffect(() => {
     const fetchRecipe = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/recipes/${id}`);
+        const response = await axios.get(`http://localhost:3006/recipes/${id}`);
         setRecipe(response.data);
       } catch (error) {
         setError('Recipe not found');
