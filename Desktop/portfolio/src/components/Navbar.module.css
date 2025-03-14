@@ -1,0 +1,40 @@
+.nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  flex-grow: 1; 
+}
+
+.navItem {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px; 
+  position: relative;
+  transition: all 0.3s ease;
+  font-size: 1.2rem; 
+}
+
+.navItem:hover {
+  color: #4CAF50;
+  transform: scale(1.1);
+}
+
+.navItem:last-child {
+  margin-right: 0; 
+}

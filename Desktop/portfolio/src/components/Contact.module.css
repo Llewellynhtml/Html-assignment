@@ -1,0 +1,67 @@
+.contactSection {
+    margin: 40px auto; 
+    padding: 40px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    text-align: center; 
+}
+
+.contactTitle {
+    font-size: 2.2rem; 
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formGroup textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.formStatus {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #4CAF50;
+}
