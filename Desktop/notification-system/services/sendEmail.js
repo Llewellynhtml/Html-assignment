@@ -28,9 +28,9 @@ Business Generic Inc.`,
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error(" Error sending email:", error);
+      console.error("❌ Error sending email:", error);
     } else {
-      console.log(` Email sent successfully: ${info.response}`);
+      console.log(`✅ Email sent successfully: ${info.response}`);
     }
   });
 };
